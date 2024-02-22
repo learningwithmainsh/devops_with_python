@@ -1,4 +1,4 @@
-text = "Python is awesome"
-substring = "is"
+text = "Manish  is working as Devops Engineer"
+substring = "Devops"
 if substring in text:
-    print(substring, "found in the text")
+    print(substring, "is Work Profile")
