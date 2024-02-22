@@ -1,5 +1,5 @@
-# a = 10
-# b = 5
+a = int(input("Please enter first number: "))
+b = int(input("Please enter second number: "))
 
 def add(a, b):
     add_result = a + b
@@ -7,18 +7,17 @@ def add(a, b):
 
 def sub(a, b):
     sub_result = a - b
-    print(sub_result)
+    return sub_result
 
 def mul(a, b):
     mul_result = a * b
-    print(mul_result)
+    return mul_result
 
 def mod(a, b):
     mod_result = a % b
-    print(mod_result)
+    return mod_result
 
-print(add(5, 10))
-print(su(5, 10))
-print(add(5, 10))
-print(add(5, 10))
-
+print(add(a, b))
+print(sub(a, b))
+print(mul(a, b))
+print(mod(a, b))
